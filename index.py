@@ -69,6 +69,7 @@ name = 'Ali'
 age = 43
 meslek = 'Content Creator'
 
+
 print('Merhaba, ismin %s yasin %d meslegin ise %s' % (name,age,meslek))
 
 name = 'Ali'
@@ -82,4 +83,35 @@ age = 43
 meslek = 'Content Creator'
 
 print('Merhaba, ismin {} yasin {} meslegin ise {}'.format(name,age,meslek))
+
+print('Merhaba, ismin {} yasin {} meslegin ise {}'.format(age,meslek,name))
+
+print('Merhaba, ismin {2} yasin {0} meslegin ise {1}'.format(age,meslek,name))
+
+print('Merhaba, ismin {a} yasin {b} meslegin ise {c}'.format(b=age,c=meslek,a=name))
+
+
+print('Merhaba, ismin {} yasin {b} meslegin ise {c}'.format(name,c=meslek,b =age))
+
+taban = 6
+yukseklik = 4
+print('burada hesaplama gosterecegim {}'.format(taban*yukseklik/2))
+
+
+name = 'Ali'
+age = 43
+meslek = 'Content Creator'
+print(f'merhaba benim adim {name} yasim {age} meslegim {meslek}')
+
+
+print(f"burada hesaplama yapiyor {taban*yukseklik/2}")
+
+name = "MARIAM"
+
+print(f"My name is {name.capitalize()}")
+
+print(f"saga hizalama {name:>20}")
+print(f"saga hizalama {name:<20}")
+print(f"saga hizalama {name:^20}")
+print(f"saga hizalama {name:*^20}")
 
